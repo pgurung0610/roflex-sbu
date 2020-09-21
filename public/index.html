@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ROFLEX</title>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.19.1/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.19.1/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.19.1/firebase-firestore.js"></script>
-    <script defer src="/__/firebase/7.19.1/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.19.1/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ROFLEX</title>
 
-    <!-- importing JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/7.19.1/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/7.19.1/firebase-auth.js"></script>
+  <script defer src="/__/firebase/7.19.1/firebase-firestore.js"></script>
+  <script defer src="/__/firebase/7.19.1/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/7.19.1/firebase-storage.js"></script>
+  <!-- initialize the SDK after all desired features are loaded -->
+  <script defer src="/__/firebase/init.js"></script>
 
-    <!-- importing JavaScript files from js folder-->
-    <script src="js/templates.js"></script>
-    <script src="js/template.js"></script>
-    <script src="js/routes.js"></script>
-    <script src="js/router.js"></script>
-    <script defer src="js/index.js"></script>
+  <!-- importing JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <!-- importing CSS files from css folder -->
+  <!-- importing JavaScript files from js folder-->
+  <script src="js/templates.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/router.js"></script>
+  <script defer src="js/index.js"></script>
 
-  </head>
-  
-  <body>
-    <div data-router-header id="data-router-header"></div>
+  <!-- importing CSS files from css folder -->
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/login.css">
 
-    <div data-router-outlet id="data-router-outlet"></div>
+</head>
 
-    <div data-router-footer id="data-router-footer"></div>
-  </body>
+<body>
+  <div data-router-header id="data-router-header"></div>
+
+  <div data-router-outlet id="data-router-outlet"></div>
+
+  <div data-router-footer id="data-router-footer"></div>
+</body>
+
 </html>

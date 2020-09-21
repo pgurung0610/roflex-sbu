@@ -1,0 +1,19 @@
+.login-form{
+    margin-top: 10%;
+    text-align: center;
+    display:block;
+}
+
+input.login-field{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+
+.login-but{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}

@@ -1,0 +1,19 @@
+
+/* Change these primary colors */
+:root {
+    --primary-color: #2C4477;  
+    --secondary-color: #ADD8E6;
+    --background-color: #e9eaea;
+  }
+  
+  *{
+      margin: 0;
+      padding: 0;
+      font-size: 1.2rem;
+  }
+  
+  body {
+      background: var(--background-color);
+      font-family: 'Roboto', sans-serif;
+      user-select: none;
+  }
