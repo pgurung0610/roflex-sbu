@@ -17,12 +17,12 @@ const router = new Router(routes);
 
 window.addEventListener('hashchange', hashChangeEvent => {
     urlSegments = hashChangeEvent.newURL.split("#");
-    user = firebase.auth().currentUser;
-    // user = true;
+    //user = firebase.auth().currentUser;
+    user = true;
 
-    if(user && urlSegments[1] != "") {
+    if (user && urlSegments[1] != "") {
         router.loadRoute(urlSegments[1]);
-    } else if(user && urlSegments[1] === "") {
+    } else if (user && urlSegments[1] === "") {
         router.loadRoute("home");
     } else {
         router.loadRoute("");
